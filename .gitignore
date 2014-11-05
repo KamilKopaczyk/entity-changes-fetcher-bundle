@@ -1,0 +1,5 @@
+/vendor/
+.idea
+composer.lock
+Tests/Functional/app/cache/
+Tests/Functional/app/logs/

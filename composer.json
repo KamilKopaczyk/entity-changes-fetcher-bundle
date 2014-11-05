@@ -1,0 +1,24 @@
+{
+    "name": "symfony/framework-standard-edition",
+    "license": "MIT",
+    "type": "project",
+    "description": "The \"Symfony Standard Edition\" distribution",
+    "autoload": {
+        "psr-4": { "Daimos\\ChangesFetcherBundle\\": ""}
+    },
+    "target-dir": "Daimos/ChangesFetcherBundle",
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/http-kernel":"2.5.*",
+        "symfony/config":"2.5.*",
+        "symfony/dependency-injection":"2.5.*",
+        "daimos/entity-changes-fetcher":"~1.0"
+    },
+    "require-dev": {
+        "doctrine/doctrine-bundle": "~1.2",
+        "doctrine/orm": "~2.2"
+    },
+    "suggest": {
+        "doctrine/orm": "~2.2"
+    }
+}
