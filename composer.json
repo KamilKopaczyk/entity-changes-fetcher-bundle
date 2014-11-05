@@ -6,7 +6,6 @@
     "autoload": {
         "psr-4": { "Daimos\\ChangesFetcherBundle\\": ""}
     },
-    "target-dir": "Daimos/ChangesFetcherBundle",
     "require": {
         "php": ">=5.3.3",
         "symfony/http-kernel":"2.5.*",
