@@ -1,8 +1,8 @@
 {
-    "name": "symfony/framework-standard-edition",
+    "name": "daimos/entity-changes-fetcher-bundle",
     "license": "MIT",
-    "type": "project",
-    "description": "The \"Symfony Standard Edition\" distribution",
+    "type": "symfony-bundle",
+    "description": "Bundle version of daimos/entity-changes-fetcher",
     "autoload": {
         "psr-4": { "Daimos\\ChangesFetcherBundle\\": ""}
     },
